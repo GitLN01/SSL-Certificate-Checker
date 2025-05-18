@@ -18,6 +18,7 @@ This repository contains a simple yet effective Bash utility for automating the 
 
 - `openssl` – available by default on most Unix/Linux systems.
 - `gdate` (on macOS) – install via Homebrew:
+
   ```bash
   brew install coreutils
   ```
@@ -35,6 +36,8 @@ On Linux, date is sufficient; just replace **gdate** with **date** in the script
 - 20 – number of days before expiry to trigger a warning (default: 30)
 - /home/user/ssl_logs – folder where log files will be saved (default: current directory)
 
-Don't forget to check the newly created files for the output!
+---
+
+**Don't forget to check the newly created files for the output!**
 
 
